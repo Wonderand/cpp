@@ -16,11 +16,13 @@ int main()
     // 2.字符变量所占内存大小
     cout << "字符变量所占用的内存：" << sizeof(ch) << endl;
     // 3.字符变量常见错误
-    char ch2 = 'b';
+//    char ch2 = 'b';
 //    char ch2 = "b"; 创建字符型要用单引号
-
+//    char ch2 = 'avcd'; 创建字符型变量的时候，单引号内只能有一个字符
 
     // 4.字符变量对应的ASCII编码
-
+    // a -  97
+    // A - 65
+    cout << (int)ch << endl;
     return 0;
 }
