@@ -19,8 +19,8 @@ int main(){
     cout << "二维数组的列数为：" << sizeof(arr[0]) / sizeof(arr[0][0])<< endl;
 
     // 2、可以查看二维数组的首地址
-    cout<< "二维数组的首地址为：" << (int)&arr << endl;
-    cout<< "二维数组的第一行首地址为：" << (int)&arr[0] << endl;
-    cout<< "二维数组的第二行首地址为：" << (int)&arr[1] << endl;
+    cout<< "二维数组的首地址为：" << (long long)&arr << endl;
+    cout<< "二维数组的第一行首地址为：" << (long long)&arr[0] << endl;
+    cout<< "二维数组的第二行首地址为：" << (long long)&arr[1] << endl;
     return 0;
 }

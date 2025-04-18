@@ -39,10 +39,10 @@ int main() {
     // 1、可以同居整个数组在内存中的长度 sizeof(arr)
     // 2、可以获取数组在内存中的首地址 cout << arr endl;
     cout << "sizeof=" << sizeof(arr3[1]) << endl;
-    cout << "arr=" << (int) arr3 << endl;
+    cout << "arr=" << (long long) arr3 << endl;
     cout << "leanth=" << sizeof(arr3) / sizeof(arr3[0]) << endl;
-    cout << "arr3[0]的地址为=" << (int) &arr3[0] << endl;
-    cout << "arr3[1]的地址为=" << (int) &arr3[1] << endl;
+    cout << "arr3[0]的地址为=" << (long long) &arr3[0] << endl;
+    cout << "arr3[1]的地址为=" << (long long) &arr3[1] << endl;
 
     return 0;
 }
